@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Lastest compiled and minified CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!--Lastest compiled and minified javascript-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+       <link rel="css2sheet" href="css2.css">
+
+
+    </head>
+    <body>
+        <div class="container"> 
+
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                  <a class="nav-link " href="home.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">                
+                  <a class="nav-link active dropdown-toggle" href="index.html" data-bs-toggle="dropdown">Profiles</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="john.html">John Abraham</a>
+                    <a class="dropdown-item" href="jeff.html">Jeff Bezos</a>
+                    <a class="dropdown-item" href="bill.html">Bill Gates</a>
+                    <a class="dropdown-item" href="mukesh.html">Mukesh Ambani</a>
+                    </ul>
+                    </li>
+              </li>        
+               <button type="button" class="btn btn-light">Logout</button>
+          </ul>
+          <div class="Container" style="padding-top: 30px;"></div>
+          <div class="card" style="width: 18rem;">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEX///8AAAAGBwkAAAQDBAe+vr4GCAnExMX8/Pzb29vx8fH5+fnCwsLr6+v09PQjJCU/Pz8aGhvj4+Ozs7NPUFE2NzgyMjLKysooKCg7Oz1tbW1DREVdXV2bm5t8fHxISEoTExWMjIxZWlvU1NSTk5OioqKDg4N0dHYkJSZmZmhTU1QdHh4PEBGsrKyNjY0VFxbQlwuiAAAKkElEQVR4nO2cbXOaXBCGveFI1ESBCMibgiRqVFL//797dg8mUcE26TxNwNmrHzrNiTNsd8++Y68nCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgtIXRdHr/08/wL3lcA0gmP/0Y/4ynmOSDwt1PP8g/4mGHAIbpAQ8//Sj/gsFrCJgpDBXhFnV4P3cBw1B2biLwbk/C8SJk+QwDCy9w8/2tSThcGCyfRX8UnMiBeWP3MIVvVx6UpExzIMvT2U8/1P8KBYhs/jANgpQ0mWDDQt6WDu+fh/zXmNToBdFusdjepC8lCgqFCsWeNHmjEj5DGSiSPRlrfFv38I2pHZoGXl4DwL1NHfZRckQkI73VvPShivleYHZawkl/vl6uxk1HfbqHhMlidlbCwYKMMCVX0hTSjxIaXZZw4nMkACehmNZOjxJaRofv4QYvYW4tX7AByloZ/65D1dmI/2Qj8+wyhhkgSuaXx28SItxGHc3alg5Zp8kJNrANdpfHbxKaL2FXdRhHylCuWykKweXxu5WanbXSmLRnhi8sh2X9RsLu+tIFtPIs7S/hXB73wTVw5Wo6KuEriaD2nllZ6eLymCV8c6YdzbzHnHK6kU4843qR269aNSR9Z3VI9RHnnUhdpeDVTvuhpegmWsjQVR1yyIdyKWKQJx3VDvtJ7G4o57Hs7uqQpHDAffvDsmEw0UdaeFT9ciHcXQl7vdHs4W44aDqhexi4iNgddVrC61A8NFWeoMPx8A/0K1fKsXLX0bz0D7CEHEg6XFv8AbLS3DfdBV6y25UQy73ZpMP7SaNvajOzeF2LF9yJokhhWaeeZtJ/Xlg81UCymDa2d9rI/ZQLxab6kKGk4D1a8NDb27LkYcFSev3vfta/YTTfFhzU88ushiTc2wbWKXJP+9LHlIRaVNlqmfrc4oHfehkfFwWKgMoLHOoSwksyw3FjZbOES3DByCM3uqA7LjzAity2ehVlxt1ESr5t8iZ1CXcuTxFLpSczQ54KW/S7pgHfJdstTMp3uLIqH3/k2T/BYOojLpVl2qFKbO9w6WqOEZ9rx81sSpUyp29caCAoWVbK2I/H7dy2GT+/sKsgDSVhYJLdhZfW9t5rS9ZpxDeVCAMnCvQM3MAmfqsfk3ph8uM8snnCyWGYfnaw+H4FlyGuj9Lka6fcIrBYwHT6yP8L9+O+x1Vz+aZjA+lPyPBb+qwO7KON7iTGbqOED3YaINUek1SMxamiZu5Jm4qMt94x/2GeYMevs8cV3aRyW7nIMKvrEIEyDeUkEZXIF1FhtN0eVVj6pGm0zqHOnvRfpENlYq2vVXz5O30WnaK9Y9N9raUvo1w3qpRRJhxrah3zlnCn3X3CNWBDvzQJYZR7Bbextnji4KFc7XYU8n//sH/FuPKK2kz9y8O+lzpwdpSBbrOmTlRMSiy3UUBux/Pb2qu610HbDHlgX5cwOQBLuJs0apRwFKBM3RwoyWB362943L8BoapuExZ1CQM2XgoV1yrgjPJUJzRRsK+ptcxbQm5XeQn5m+ji6CkMXvSE21RXOlGvFEm2jpW7sJTttjDqM2Hk6ulabnvZ+cmKMs/ymJdd6UQNoUyfrZyKSGD4Hc/7dYI0QaHMoEiDMzObbGHqqaLJrSizWcIB+Vp2pHsqMZx1S8sowC5CQ4XkL07v4dNB1/dFUnLmouykude2A7f9KUONIh+r73nirwKTHCFJk8Hdfvx0Dp9DAIyo/O38cI0g5EijXjatjflkiyonnxnmafL2s1EK5bqY3VE2Wjmiaz3vV7jllmIGuSLVZgntjV5CfBs+PblcSCRjXeNvqgT7ioR3GUnme7qKaq2EOZcNOq85+tI5z2Kw7HFe6jrYaWdyRcInBFChW22HtVXChaPIXypr4WkrnbDzwELn5X2Q/VJq7l3dL53t15FpUtnPEraugKqgItFyTM6+hxwtqOzjVkzVleDJzHGx7ZqEQESnepujrYkpu3uqEfcoHIoWrwUpDctjofgxmbkuIZuwUV3VlvajYHLIDgsqgx26gs72ZGn9dNukOR7O2KR1g9FA2boauEK7Fe5TZMHG44av81HqVhJWbqQ5YbmDaVNtuWMpay3zlgAqHChv45ebSp7nr3sfvQxtpcpRvIvR7EamVART1lNS3t5WV9pDukeidKuXI8aZIKRDdjvA5oBfjZ+eo/JE8KK2Jt49Lu/fG7/hubNgK9V7DLuGJo5mre3YV01bcW1BP6KqttXji2Yb65DnEiVZ6aHx04VOFriAaq2RctZG1U/MUeKyAtZNVc+y6PnzsNEIBwGqHlZpmi31pL2ew+WRgkPGmFye9eFkz9wsVnZmPTd8+BEqoGPTL9urwp7nVuGaIkZtc28Ke+uhqi2yJjMlV6oLZIWivUNvfGyU1DpRz6VnV8eILLzWP5xyO5G3N/H0Hc/6d4S6ca2Tkto9TDE/7l+C7NCqjdDGJJzyPB9oMuF2MNlVGYuezF9KOABnApWK0TRfWpITVZbfsJnaGoZ2clzybtLhENgrQ1FtXGlS14wn6H65cjNsvu2Bv8oD3lZkjQYJKRR4e947DWIOeJz1nCc2Wv+U6DUnA22AinnrvXqwahIuwfkozxkTH8fEoDjp+h43ANp7B++5ucIrB1pA088u2vIrnadi/UiivqSFpRf69b81w0TFmVcib68X3fCbQEVPHZvapnkmoX7jC/5K+8/HDavLpN80E/rhej5dJpzueCjnrY2DT35upFQq9U6K3BMJxweSoPio64cbCy9sq7blHvTKFzL37T+glcwoW4l0Y4UltGoSPlK5d56IjqZxGvJumM99DlLhftHSvoxmxUZW5SFU9ZrHrO3U6Y8bBkn3w+lzvN06i3S96rd7Z2/NRV9QPWO+s7lZmAWoZ21d5X4dukB6vEI8wNU63Pi3IuF9snb8w7tFUsSmEs+icBjfhISD3oS9xUlyAtgLVC3RWubdSUYh4vK030T2uje446RaO4j/EuPdXp1vN5EvLZBR/mkHxY891v/HOIlw8ZIWDim4RlSuvb32se4w4pfSg/OOIXal7iaRlba3yvss91TnIjoXcIC9nlxQyrlv6abBFyBVobxoCk5AUaJahG1qxHSLNZUHtY7ROMiOuwiqzd2kT3HHDexasjy09L4Ib/2gpTtNn2aPps77HQ+PDCSmUW8Id4xp8L6KcMorlUEZ79+3dlnk0xRpkjWMHhbWnicXPJdp6ZD6s/A3kzU1/bLQySs/U3+Vu1vwSkFDvBtRNuPl3PXsfKxYvdX059xhr78BErHb2pbSJ5kjiBouGg94ow1/SWLn3xGdk5XWHQ3dzrHvrPL8BnLSKeyGlZhfyHbcGMxvoKwYYpvVlukfs0wPLsKstSPqzzPYk64u0zInCLClWH8LpW+vtwzDi8s22G12ehuq68nMkcke54Pqya9tsOC3DrteUryz4nH7+4xz8BDwkh4lOjdwBd+gG+cjnA8nk3F/7QIq87Bu8+zh68T8nmSGIwpIut+3uIBTt5y/BIKkc1Hclv4qxkvKQl/0Nz68drxYuspgOJ2tprN2z8YEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAE5j9nr4vRndJHHwAAAABJRU5ErkJggg==" alt="Jeff Bezos" style="height:200px">
+        <div class="card-body">
+          <h5 class="card-title">Jeff Bezos</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis at magni, harum velit architecto repellat nihil quis inventore soluta consectetur earum quidem nemo animi aperiam reiciendis quae! Molestias, architecto iste!</p>
+          
+        </div>
+      </div>
+    </div>
+    </body>
+</html>

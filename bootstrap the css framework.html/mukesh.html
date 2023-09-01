@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Lastest compiled and minified CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!--Lastest compiled and minified javascript-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+       <link rel="css2sheet" href="css2.css">
+
+
+    </head>
+    <body>
+        <div class="container"> 
+
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                  <a class="nav-link " href="home.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">                
+                  <a class="nav-link active dropdown-toggle" href="index.html" data-bs-toggle="dropdown">Profiles</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="john.html">John Abraham</a>
+                    <a class="dropdown-item" href="jeff.html">Jeff Bezos</a>
+                    <a class="dropdown-item" href="bill.html">Bill Gates</a>
+                    <a class="dropdown-item" href="mukesh.html">Mukesh Ambani</a>
+                    </ul>
+                    </li>
+              </li>        
+               <button type="button" class="btn btn-light">Logout</button>
+          </ul>
+          <div class="Container" style="padding-top: 30px;"></div>
+          <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQwAAAC8CAMAAAC672BgAAABm1BMVEUVERIAAAAVERMAAA4AAAkAAAwAABAAAAoAABMAAAYUEREAAAMXExQAABT2zna9lD7JnUUWERbUq1ETEg8XDxHRpk7ctF/hxXEWEBgXEBXrwmcSERLXr1gWExASEg68lT6zizSsgy4AABnauF/50XoRDhkYDRiRdz7Fn0C3ijnrwmHKn0njumDRo0nXtFgsIhFHPi3duFTvyF3fs1UFAR9BMyx8bztnWyoeGA9nVjA9Lxjix3mcjFPss1TBp1eDaDrOoTGzkUwyJBsJEwUkJhQxGBt1WjD4y2qwmltWUTR6ZCr/1IP3xHHy0XGujzVeSyKmk06jgj0XDB+lh026kCy5hDY7NyYqGhRqYESQhF+0pW7HmU2fiDp/ZzHOwHWPcTBJPyUqHhXl1oI8OA6jfEFmTy7Eq2R6ViimnW3Hu39RQB/n04lMRjA2LROWfUrx5ZhmXUbXqWCUfVxZUiT/5oz/8KRubkOZkXDW2I2+t4TIrEHRm1OTeynS0pnTt2pGQjh6emTTt3/z7bc9KhwkKR2wnkWEdjj/23Z8akCK53mAAAAQFklEQVR4nO2b+18a17rGmTU3ZoHAMAPMzGIGFIY7GEMbAVOoppXEAGo0xlzcXtp4Uky1aZPuW457n5Pu6p993gXGJlVjzt5tQj+f9f1Bo06QeeZ53/W8s0aPh8FgMBgMBoPBYDAYDAaDwWAwGAwGg8FgMBgMBoPBYDAYDAaDwWAwGAwGg8FgMBgMBoPBYDAYDAaDwWAwGJeAVfw+R3ne4yiE3ueoEQbZuke97CBMdO09TlP1a/4/tCC2MkHQZQeZuvPJpYp5NBsT3iVY/03e2MdA+PSaaF92kK0q07VLJVM1Q683iPqHFQM5M+nrymXOVsXsZ03lstfSNbH1+azpXqrtSGJ7sLiV7qbnbrj4wuuOiakLjXLY+oIY2jtfLnPjy1wvN+8jv/kb/RCAH/h6utu+6XVs46KD0MAY5UjhlnzJuqONLQTz+Vn8hxVD3L+d7nS/fJcYukdsJEKR0jUB6e/sG06mlwwGc4vyb/9OPwC2Bwkr6W6nvSRdfNGJbiitYC4Sve4j5jvEwJ6xxdV8IpFfVi5ttaMINh2pmQ4EAldrdy4UA3ncRj4YiqSagmZcXCcko7nj+dV8cDXRcHV0+UI8amCToBRoUbBWxAvLBGvyZpKKEVOIeaEYpq2SrUR+NZgPJrJerP4BzYHUNSsQsNrdTu2iS4ld4VWSOiMaE95xhirkrc3VfHKgxqRzobQjjObtd8EZVqGQvbjQvQt3qTOi3bV3JAjHdF7lk6AakJuXLrbQ6KJKrS70DMuait67oZpnYgRyDMd91RsflEl3XbzYGobNLwzFSASD+Qwhpql7dMA0TRVr+PLI/7GxDWE/QJ1hleJZWUVnAoLqqI6UDY4PnXHfd/EZIVJbBi0GzkjkFjMZx9HIAEdzDMPURz6jY5ObtWgDLUXLuXvEPtM3VBuMUUwOnRF7wF1sfk1aTPSgXQzUePhojJiqMQCcYdqOrY788qKZctMaOiOc25DPioFVTVmJBE/E+JOsXWgNJI7ne8HNR1SM0Gqx4eNqc2tbwNq2zXm9vCQg/+97Mv8pmrldeS3Gw9722RShEjJXyeWHZRLbkc6/vCoYiPRhKUl+tREc1Eko8TASKZfLVUo83myutLZMTvBipCJNNUayfyBjq/RajGJwYeKMGKYjrJRAjHyCivH8C/fcOsEoc0fchI7xtfQ4NBAjEQqFipRIJBIOx+PRSiqV2t2v+zmOGLZt/v6n9v8H8/VTMULJ8Un31wdo5MtCvLg6nhyKcct7rhiq4ziTvXyyN96jw8lQjKEW4I6BGiBGNBWLxR6sT3KyOpIzvi1u/OKMZHLjzITl51ba4VBveVgmz++L53dQd2JsA4wBi0k+cVInoVwoVAZbxGmhVCogxWFsyO56RhzF6cWWlktW2kpRMRJQDHMEodO3iZGOceZqp1Lc/K/EUIwnby0nUP/YA4FeVibnx5N3QYzVVbq2JhLBHFAM5peXNzc2NlqtVnZltllJDbSYmdnZu7/GCRireKSSGZ7olTpHu9faVIzkeKIlE/M0a8B8gYXrV6Px3FeLQzH2vvG9+fZBCdMhXr2/OZ6EHpukMSOZg0PBSq35fsM/IQs8LwuCIvKKwttrt46v785QPZ7vPXgqyMQ1RqleSCYctdJL3lihFMkloU1OuvapGCYmrt61rOqy1A8OxJjZk9+yt+6Qibnp5eQ4JTkA0ufyRv+eIgquih0PxtiErIEwMohDZInntp9ee7C3s7N38M1THyGjFD7It1SMfd9+tzoQI7chaKdiGI7q2z8CMfrit8MGundwOs5RUZAoNV72VpMnYoA9Er1sf1LhBUfTTcfBCBHsIYTjZB5pHtVje3QP8UEC+e7Jzs7BwYNPxVHKHuIPIMbRuvJlbCoSpINFbu6XnoEct9btFKzEGPKfiPFibdBisQeahV+U+49ytGmeOmOzf0dUCKLTCFJVr9crqZC8rly5sra29lNNQ4ZBVDNjqsTHeW892Xtx8ET3+e1R6aXiNIjRfarI1wvPwBnJRLklns4QGCvft7tWoc+ZxngwFK7EZl6sCx66I2AT2ystzkKmoKUxlOLloiEJBBE/gqLgxbHtH35+1ISemX4OHOx982QdhP6l5Yic8N03Lw5+5GASHo0+6stSMSaJw18tDyaQYvjL0zJ2XD12u2s1eceUlhOhMPSMgz9zHnofh0xI9V6ZLqNgp/He3dXe/KTgJRnThhnE5fna9HKxWo0+g6Uqtnt9/YrIAaLhebNf+rUx+cb9g7/YAmg0CnJwy+GSFRNVU1wKB6kYuXLW9/qHmrJ/FLCOtkQQY5OKMbPz4q8cgvKRPtn4W/nvD3NUjN54Pvlya4LXoAKwQ1ze19hIlMvFSDhSSV2vb3Mi71UB0+Ngz1sVYWLb4Ljv/vvPHPaPgBhICkZKnUPO1W9kpqgzoDOk7r32MqrFII81FQxizIdC4VR358k/RI+q2NlwuFgMFUMDZySyDa/PQSackJ+XJ+eXc6FirgjB81nlJicjrEGggNKDWf5XYlBDIE3k/vHPnz50H8U2pAK/33zztgK6B9c70BRt44Y3mxuUSXlqH7RBjqrbY9n27UB60Ys0U+qHctX49RrnEOXbbDwME0eomEjQtLnxSnI9hurYhPDS1tfBRPAh5K1cOQzh05qE9XWwEY3eCHOnv/3kk8L5P3QPBaPCSkfwm2VLGlSMJdFGmMwNckaoWJmpEUPDNnZrh4F0oKJoyEZuP/dwvsa73MSVlXg1DGI8hKv/MNRbmJQJ0ZFt62Qss/iS5q5g6OHX4Aw6kZSue3/lhhHBxnbtC2/G88aY7hcXyyDGNR7RLYNsAnJGrhi17nOGbTpIblmd9NEtCYF+xvbjmkwEuT87Fa1WqDPKMHz0Fu5JLiyNbkZ1x+5Nj+fvwhAfBIGk3sMcFaOS0tF77Bl8+KxhI9Xemp4ccwZXirZv5BcXqBh13vDoqvNq9mRQ33Edw4SM0SwF0oeyk4ERQiVEFsce/6tUjVfjYeqMYrlX90Nn1HXaNqXthWEgDy4v6l4izJcjYI143Drm0Qj0xrPAWEW+Wl6Y4wVIPZkMBGXEb5Yj0cJTzkRY1aRNOJdQOR7beeLDROfnq9F2ui7AvIYhLnG14wqMc6VqNRynYiSmdYmYSHWJafCTC/nhsrLcxwKBAF4r0jqJR6PNsVHdd8UGETZWN9cUUdUIzAt+8W65XLLm3MH6r/RpAwVnxA4cE7uZRLUU+B9ONQ1oB/LWfupqB7QoRaO0ZyTqvOjCYmDrOuH8G4lcIpG8O/6y73OHz2aI2XJ5UCaxp++4of5xMeyM2Oh9vvy4JhLdryL+ZS9eitmG4cAPVXmTzqZxEOOJzxQWIs2l4zniYNnrn25a7UKpQMWgdydmF728imA1NYk6ps/nwpBE86sv+5LXwH56EwsrW2EqRjyVuimPqhia6mTksfnc56HNhqLAAP2J1GjtKzhDxUBCI5HLlUuxnYP/rRmk3hiTvK7M8/2lWKBjFUqWNXDG1NKW7Mvc0WyI3eoEPm5W/15MBHOPHssc0SFZ03MnpjB7IkZs7dJHXD4O2LCx5ifee1nIRMWvG5LXh1WeU20T7G7qGW7z0aPllevXprc0v86rjiIo/ZXDQNsqFCyQ46pVtaaWXvFE99xwYOBCHHf8rATttBjKPVYkTwY5ZLjFik2hXqU9I5Xq3ueI52zGGAFeR0txcrka+Vv12aPpLzgFRku/qhLnhuNOjI1JvODjM+YYz3G19ZtWOlCwBtBP7VQrwxEVu66eyRCBOz4sTNHQUSxveN86XQ2RWjFMxYh2/7RNoLF8jLN9H/xQ14YwtwwtLv5Z6dnszz/UJgRO9noFGaYpnyzAxy/q+7uxdPtq1+pSFcAWnavd2T7HE9DN7ziGwsn7qUKh9CxKxcjdufHWgxu2SqRsOVxJpQ5T3WNBHZkp/SyQcTT9jvzTz/SmdanU6XRKqebSyn6rdXz8/f7Kzd3DmdvpdKcT6FqdztAW7W7l+B7HucSm4TozwTWWYu2CdXXKGjhjWXj7kVlYqN0GpK4U9IzYLtThKN3QOgtBuv6JHq9W49HS1BQ94UCg2+0epdNduhEdoF8NPlgBq92OrvR5hbimrhuY8Io03Qx02rRuDjfAGcXwli/z9oM/qmb6Zgc9IzYTu3XOTt2IATlLr8bBG1FwBhSCFeh0bqe76fTtgRSD/QP4XqDbzG4RUTZM3W8Q4uOUraVYN9C9WghYu4/l4ylwRkKA0/91JUBoG4gRe+cO7YiAEdkCj0ebjenZqEUtAAKAEt2BLwJt+iF2uHS8JklerGc0jSgiN/nd9ZmBTp1AaumKTzEqkM6nWjI+u16QWjwyKJPYzpY7uj1jCDZ889VwJdqUJaG2Vd+fPYyBGEcnRXK7fXjzWn3Ny/NINwmnSJLYuPXzbuwo3W6DULGb9doEr0/UC5DN4zX1vFmLz5ZOxLjJjb4YXJaK8Yg3DVWAJUSorT29VV9fOWkZdZ4X/Lofm9uTjf58dvawBN9Nww9vg10mOa/qIFX6V6kSjswqyH9WDV1uVIZlMrMDwUt9rz9d+FggTZ6FnlHKynhocgiUgqzwZCZwuwvjKgzxtf7Cy2SRbqUXCoVOoUPFSHd3OUlCHtePDWmrEK1OReb583+Br/lajAeco17ycPFHxhXC4Uq11FIcfHpZEcLC90eBdODomPcj4nrv6K/6iwsb2ezPLbrgUGfEtjXdtrHfNbhmqQQt41PnvCrAeKI+LJOZ2N6PAraNEdoieRu/3yMtlp7Fq8+ynGuc3pxGyFa5GRAjNua4jkNcFYZ0L3QOiVcOaYNNd2+nl3wTrolvEG7fKk1Fw1P3zr3mWHPNk54xs3NwRbrk4eKPCFEE8Sd6Y6ISra7bgny6+46xqdx6Hjiq87ZumB5wgEZv5HpM+ak1KBMoocBuXeN83NpNGFagTOItURGEc36HyjWpGDM7M3t7Bz/SYPshT/G9QY3ZUOQzGMZLpUKh3S5F92Gaev0ACeJ2j3a5X92vRtuHbchkzyGVHVGsaOGoDRQK8CrlYK/unOmPZO3QisUgyXXpJtKLFwd/+Ss/ik1Utec3F6brj/v9fv241drPPhaJ9loMrHLXzlhadTkhMzl55Wm9Xj8+3s9m9/ezrWP6CvX69MLGxquzUcLw9+vTx8fH1+4DTyjrxigmUYSVsQlB5F1BEGWfInsN9ZctT5RxPjnb7HTiOK5IHy0QZPjk5X2yCK1EcgXJOzYhk7POsDXTKwIKxacocLRnlJ5AeI2qakRDdI8ce5AJ/9AgTZ9eNWySs3Ymumlo9AEDQNcRxvS5zsHjaprm6IZ+5s8NkKoZNn0olhD4FZoGzQcmgN/7zP4NQAL19C+PaMigX/yy+37eX23CUfbpts/JthB9+mLwBfacs1lK4wseMthDov9hVBcUBoPBYDAYDAaDwWAwGAwGg8FgMBgMBoPBYDAYDAaDwWAwGAwGg8FgMBgMBoPBYDAYDAaDwWAwGAwGg8EYIf4PTXqDqjLZx1QAAAAASUVORK5CYII=" class="card-img-top" alt="Mukesh Ambani" style="height:200px">
+              <div class="card-body">
+                <h5 class="card-title">Mukesh Ambani</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis at magni, harum velit architecto repellat nihil quis inventore soluta consectetur earum quidem nemo animi aperiam reiciendis quae! Molestias, architecto iste!</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
